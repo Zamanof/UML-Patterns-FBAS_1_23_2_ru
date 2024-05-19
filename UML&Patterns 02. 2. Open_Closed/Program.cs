@@ -106,12 +106,38 @@
 #endregion
 
 #region Open/Closed Task Bad Example
-class Developer
+//class Developer
+//{
+//    public int Id { get; set; }
+//    public string Name { get; set; }
+//    public string Position { get; set; }
+//    public double Salary {  get; set; }
+
+//    public Developer(int id, string name, string position, double salary)
+//    {
+//        Id = id;
+//        Name = name;
+//        Position = position;
+//        Salary = salary;
+//    }
+
+//    public double CalculateBonus()
+//    {
+//        if (Position == "Junior") return Salary * 0.1;
+//        else if (Position == "Middle") return Salary * 0.2;
+//        else return Salary * 0.3;
+//    }
+//}
+
+#endregion
+
+#region Open/Closed Task Bad Example
+abstract class Developer
 {
     public int Id { get; set; }
     public string Name { get; set; }
     public string Position { get; set; }
-    public double Salary {  get; set; }
+    public double Salary { get; set; }
 
     public Developer(int id, string name, string position, double salary)
     {
@@ -121,12 +147,25 @@ class Developer
         Salary = salary;
     }
 
-    public double CalculateBonus()
+    public abstract double CalculateBonus();    
+}
+
+class JuniorDeveloper : Developer
+{
+    public JuniorDeveloper(int id, string name, string position, double salary) 
+        : base(id, name, position, salary)
+    { }
+
+    public override double CalculateBonus()=> Salary * 0.1;
+}
+
+class MiddleDeveloper : Developer
+{
+    public MiddleDeveloper(int id, string name, string position, double salary) : base(id, name, position, salary)
     {
-        if (Position == "Junior") return Salary * 0.1;
-        else if (Position == "Middle") return Salary * 0.2;
-        else return Salary * 0.3;
     }
+
+    public override double CalculateBonus () => Salary * 0.3;
 }
 
 #endregion

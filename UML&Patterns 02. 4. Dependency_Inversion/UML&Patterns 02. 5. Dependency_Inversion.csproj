@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>UML_Patterns_02._4._Dependency_Inversion</RootNamespace>
+    <RootNamespace>UML_Patterns_02._5._Dependency_Inversion</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

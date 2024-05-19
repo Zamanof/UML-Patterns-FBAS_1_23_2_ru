@@ -162,9 +162,7 @@ class JuniorDeveloper : Developer
 class MiddleDeveloper : Developer
 {
     public MiddleDeveloper(int id, string name, string position, double salary) : base(id, name, position, salary)
-    {
-    }
-
+    {}
     public override double CalculateBonus () => Salary * 0.3;
 }
 

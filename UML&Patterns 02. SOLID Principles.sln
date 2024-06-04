@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML&Patterns 02", "UML&Patt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patter5ns 08. Bridge Pattern (Figure and Color)", "UML&Patter5ns 08. Bridge Pattern (Figure and Color)\UML&Patter5ns 08. Bridge Pattern (Figure and Color).csproj", "{14A54E2F-36F3-404B-A98E-AEB242D957C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 08. FlyWeight pattern", "UML&Patterns 08. FlyWeight pattern\UML&Patterns 08. FlyWeight pattern.csproj", "{BDD1AFCB-A291-4CD0-A615-C36631545A6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{14A54E2F-36F3-404B-A98E-AEB242D957C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14A54E2F-36F3-404B-A98E-AEB242D957C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14A54E2F-36F3-404B-A98E-AEB242D957C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD1AFCB-A291-4CD0-A615-C36631545A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD1AFCB-A291-4CD0-A615-C36631545A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD1AFCB-A291-4CD0-A615-C36631545A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD1AFCB-A291-4CD0-A615-C36631545A6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{36478CC7-66C6-4095-A9DE-8DE5E3D572A6} = {F24D4047-C96B-40D0-97B1-1A1D0D630227}
 		{B136CE7F-F3C6-43E3-BFF2-DEC452DB3710} = {0C81F24B-841D-4B60-83E9-B6625566618E}
 		{14A54E2F-36F3-404B-A98E-AEB242D957C0} = {0C81F24B-841D-4B60-83E9-B6625566618E}
+		{BDD1AFCB-A291-4CD0-A615-C36631545A6B} = {0C81F24B-841D-4B60-83E9-B6625566618E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C0D64AC-CB2D-4713-8D14-838587A4750B}

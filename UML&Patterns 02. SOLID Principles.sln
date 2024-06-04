@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34414.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 02. 0. SOLID Principles", "UML&Patterns 02. SOLID Principles\UML&Patterns 02. 0. SOLID Principles.csproj", "{CF508B95-A537-42F5-A472-1D40BC6E0DA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML&Patterns 02. 0. SOLID Principles", "UML&Patterns 02. SOLID Principles\UML&Patterns 02. 0. SOLID Principles.csproj", "{CF508B95-A537-42F5-A472-1D40BC6E0DA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 02. 1. Single_Responsibility", "UML&Patterns 02. 1. Single_Responsibility\UML&Patterns 02. 1. Single_Responsibility.csproj", "{C5E8C1FE-0859-4E62-A646-3F1ACD6C43CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML&Patterns 02. 1. Single_Responsibility", "UML&Patterns 02. 1. Single_Responsibility\UML&Patterns 02. 1. Single_Responsibility.csproj", "{C5E8C1FE-0859-4E62-A646-3F1ACD6C43CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 02. 2. Open_Closed", "UML&Patterns 02. 2. Open_Closed\UML&Patterns 02. 2. Open_Closed.csproj", "{D4337597-5774-4860-BB7C-30F2008EB4AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML&Patterns 02. 2. Open_Closed", "UML&Patterns 02. 2. Open_Closed\UML&Patterns 02. 2. Open_Closed.csproj", "{D4337597-5774-4860-BB7C-30F2008EB4AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 02. 3. Liskov_Substitution", "UML&Patterns 02. 3. Liskov_Substitution\UML&Patterns 02. 3. Liskov_Substitution.csproj", "{185390CD-B329-4D9E-AE4F-9A5DC970D46A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML&Patterns 02. 3. Liskov_Substitution", "UML&Patterns 02. 3. Liskov_Substitution\UML&Patterns 02. 3. Liskov_Substitution.csproj", "{185390CD-B329-4D9E-AE4F-9A5DC970D46A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 02. 4. Interface_Segregation", "UML&Patterns 02. 4. Interface_Segregation\UML&Patterns 02. 4. Interface_Segregation.csproj", "{26A9DA6E-61C3-4F13-B30B-6943498EEEDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML&Patterns 02. 4. Interface_Segregation", "UML&Patterns 02. 4. Interface_Segregation\UML&Patterns 02. 4. Interface_Segregation.csproj", "{26A9DA6E-61C3-4F13-B30B-6943498EEEDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 02. 5. Dependency_Inversion", "UML&Patterns 02. 4. Dependency_Inversion\UML&Patterns 02. 5. Dependency_Inversion.csproj", "{36478CC7-66C6-4095-A9DE-8DE5E3D572A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML&Patterns 02. 5. Dependency_Inversion", "UML&Patterns 02. 4. Dependency_Inversion\UML&Patterns 02. 5. Dependency_Inversion.csproj", "{36478CC7-66C6-4095-A9DE-8DE5E3D572A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML&Patterns 08", "UML&Patterns 08", "{0C81F24B-841D-4B60-83E9-B6625566618E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 08. Bridge pattern", "UML&Patterns 08. Bridge pattern\UML&Patterns 08. Bridge pattern.csproj", "{B136CE7F-F3C6-43E3-BFF2-DEC452DB3710}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML&Patterns 02", "UML&Patterns 02", "{F24D4047-C96B-40D0-97B1-1A1D0D630227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patter5ns 08. Bridge Pattern (Figure and Color)", "UML&Patter5ns 08. Bridge Pattern (Figure and Color)\UML&Patter5ns 08. Bridge Pattern (Figure and Color).csproj", "{14A54E2F-36F3-404B-A98E-AEB242D957C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +53,27 @@ Global
 		{36478CC7-66C6-4095-A9DE-8DE5E3D572A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36478CC7-66C6-4095-A9DE-8DE5E3D572A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36478CC7-66C6-4095-A9DE-8DE5E3D572A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B136CE7F-F3C6-43E3-BFF2-DEC452DB3710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B136CE7F-F3C6-43E3-BFF2-DEC452DB3710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B136CE7F-F3C6-43E3-BFF2-DEC452DB3710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B136CE7F-F3C6-43E3-BFF2-DEC452DB3710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A54E2F-36F3-404B-A98E-AEB242D957C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A54E2F-36F3-404B-A98E-AEB242D957C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A54E2F-36F3-404B-A98E-AEB242D957C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A54E2F-36F3-404B-A98E-AEB242D957C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF508B95-A537-42F5-A472-1D40BC6E0DA7} = {F24D4047-C96B-40D0-97B1-1A1D0D630227}
+		{C5E8C1FE-0859-4E62-A646-3F1ACD6C43CD} = {F24D4047-C96B-40D0-97B1-1A1D0D630227}
+		{D4337597-5774-4860-BB7C-30F2008EB4AC} = {F24D4047-C96B-40D0-97B1-1A1D0D630227}
+		{185390CD-B329-4D9E-AE4F-9A5DC970D46A} = {F24D4047-C96B-40D0-97B1-1A1D0D630227}
+		{26A9DA6E-61C3-4F13-B30B-6943498EEEDE} = {F24D4047-C96B-40D0-97B1-1A1D0D630227}
+		{36478CC7-66C6-4095-A9DE-8DE5E3D572A6} = {F24D4047-C96B-40D0-97B1-1A1D0D630227}
+		{B136CE7F-F3C6-43E3-BFF2-DEC452DB3710} = {0C81F24B-841D-4B60-83E9-B6625566618E}
+		{14A54E2F-36F3-404B-A98E-AEB242D957C0} = {0C81F24B-841D-4B60-83E9-B6625566618E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C0D64AC-CB2D-4713-8D14-838587A4750B}

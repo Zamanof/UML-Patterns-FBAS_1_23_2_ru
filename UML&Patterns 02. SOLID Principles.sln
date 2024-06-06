@@ -17,15 +17,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML&Patterns 02. 5. Depende
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML&Patterns 08", "UML&Patterns 08", "{0C81F24B-841D-4B60-83E9-B6625566618E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 08. Bridge pattern", "UML&Patterns 08. Bridge pattern\UML&Patterns 08. Bridge pattern.csproj", "{B136CE7F-F3C6-43E3-BFF2-DEC452DB3710}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML&Patterns 08. Bridge pattern", "UML&Patterns 08. Bridge pattern\UML&Patterns 08. Bridge pattern.csproj", "{B136CE7F-F3C6-43E3-BFF2-DEC452DB3710}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML&Patterns 02", "UML&Patterns 02", "{F24D4047-C96B-40D0-97B1-1A1D0D630227}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patter5ns 08. Bridge Pattern (Figure and Color)", "UML&Patter5ns 08. Bridge Pattern (Figure and Color)\UML&Patter5ns 08. Bridge Pattern (Figure and Color).csproj", "{14A54E2F-36F3-404B-A98E-AEB242D957C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML&Patter5ns 08. Bridge Pattern (Figure and Color)", "UML&Patter5ns 08. Bridge Pattern (Figure and Color)\UML&Patter5ns 08. Bridge Pattern (Figure and Color).csproj", "{14A54E2F-36F3-404B-A98E-AEB242D957C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 08. FlyWeight pattern", "UML&Patterns 08. FlyWeight pattern\UML&Patterns 08. FlyWeight pattern.csproj", "{BDD1AFCB-A291-4CD0-A615-C36631545A6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML&Patterns 08. FlyWeight pattern", "UML&Patterns 08. FlyWeight pattern\UML&Patterns 08. FlyWeight pattern.csproj", "{BDD1AFCB-A291-4CD0-A615-C36631545A6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 08. ChainOfResponsibility", "UML&Patterns 08. ChainOfResponsibility\UML&Patterns 08. ChainOfResponsibility.csproj", "{460A4854-FB95-41FC-9A0B-59BFE3C58C6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML&Patterns 08. ChainOfResponsibility", "UML&Patterns 08. ChainOfResponsibility\UML&Patterns 08. ChainOfResponsibility.csproj", "{460A4854-FB95-41FC-9A0B-59BFE3C58C6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML&Patterns 09", "UML&Patterns 09", "{BCD82A14-0DD6-49DF-9EE7-FBE5DB83137B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&PAtterns 09. Iterator pattern", "UML&PAtterns 09. Iterator pattern\UML&PAtterns 09. Iterator pattern.csproj", "{816400F0-D62C-405C-ACA8-AB4273EF6D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 09. Observer pattern", "UML&Patterns 09. Observer pattern\UML&Patterns 09. Observer pattern.csproj", "{0EFE03F2-1040-4B36-BEBB-6B264F4619F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 09. Strategy pattern", "UML&Patterns 09. Strategy pattern\UML&Patterns 09. Strategy pattern.csproj", "{C54DC92D-79BC-4764-B968-F9E8C238F5AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 09. Template Method patern", "UML&Patterns 09. Template Method patern\UML&Patterns 09. Template Method patern.csproj", "{CC16D8BE-CF4F-4663-9A95-B2659613768B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML&Patterns 09. Mediator pattern", "UML&Patterns 09. Mediator pattern\UML&Patterns 09. Mediator pattern.csproj", "{C85CF07B-B90C-4F23-81E3-103938D8B34A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +85,26 @@ Global
 		{460A4854-FB95-41FC-9A0B-59BFE3C58C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{460A4854-FB95-41FC-9A0B-59BFE3C58C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{460A4854-FB95-41FC-9A0B-59BFE3C58C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816400F0-D62C-405C-ACA8-AB4273EF6D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816400F0-D62C-405C-ACA8-AB4273EF6D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816400F0-D62C-405C-ACA8-AB4273EF6D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816400F0-D62C-405C-ACA8-AB4273EF6D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFE03F2-1040-4B36-BEBB-6B264F4619F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFE03F2-1040-4B36-BEBB-6B264F4619F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFE03F2-1040-4B36-BEBB-6B264F4619F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFE03F2-1040-4B36-BEBB-6B264F4619F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54DC92D-79BC-4764-B968-F9E8C238F5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54DC92D-79BC-4764-B968-F9E8C238F5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54DC92D-79BC-4764-B968-F9E8C238F5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54DC92D-79BC-4764-B968-F9E8C238F5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC16D8BE-CF4F-4663-9A95-B2659613768B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC16D8BE-CF4F-4663-9A95-B2659613768B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC16D8BE-CF4F-4663-9A95-B2659613768B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC16D8BE-CF4F-4663-9A95-B2659613768B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85CF07B-B90C-4F23-81E3-103938D8B34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85CF07B-B90C-4F23-81E3-103938D8B34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85CF07B-B90C-4F23-81E3-103938D8B34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85CF07B-B90C-4F23-81E3-103938D8B34A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +120,11 @@ Global
 		{14A54E2F-36F3-404B-A98E-AEB242D957C0} = {0C81F24B-841D-4B60-83E9-B6625566618E}
 		{BDD1AFCB-A291-4CD0-A615-C36631545A6B} = {0C81F24B-841D-4B60-83E9-B6625566618E}
 		{460A4854-FB95-41FC-9A0B-59BFE3C58C6D} = {0C81F24B-841D-4B60-83E9-B6625566618E}
+		{816400F0-D62C-405C-ACA8-AB4273EF6D17} = {BCD82A14-0DD6-49DF-9EE7-FBE5DB83137B}
+		{0EFE03F2-1040-4B36-BEBB-6B264F4619F2} = {BCD82A14-0DD6-49DF-9EE7-FBE5DB83137B}
+		{C54DC92D-79BC-4764-B968-F9E8C238F5AE} = {BCD82A14-0DD6-49DF-9EE7-FBE5DB83137B}
+		{CC16D8BE-CF4F-4663-9A95-B2659613768B} = {BCD82A14-0DD6-49DF-9EE7-FBE5DB83137B}
+		{C85CF07B-B90C-4F23-81E3-103938D8B34A} = {BCD82A14-0DD6-49DF-9EE7-FBE5DB83137B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C0D64AC-CB2D-4713-8D14-838587A4750B}
